@@ -1,0 +1,125 @@
+.wrapperlgn{
+    background-image: url('./loginwallpaper.jpg');
+    background-position: inherit;
+    background-size: 100% 100em;
+    background-repeat: no-repeat;
+    height: 90em;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.tabPanelgn{
+    width: 50%;
+    float: left;
+    height: 80px;
+    margin: auto;
+}
+.tabPanelgn button {
+    cursor: pointer;
+    border: 1px solid #ff9900;
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+    color: #ff9900;
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.btnlgn {
+    cursor: pointer;
+    border: 1px solid #6bff00;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    color: #6bff00;
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.btnlgn:hover {
+    background-color: rgba(107, 255, 0, 0.58);
+    width: 205px;
+    color: white;
+}
+
+.login-pagelgn{
+    margin: auto;
+    justify-content: center;
+    background-position: center;
+
+    border-radius: 8px;
+    background-color: rgba(49, 46, 46, 0.9);
+    box-shadow: 5px 5px 10px #666, -5px -5px 10px #666;
+    width: 250px;
+    padding: 60px;
+    text-align: center;
+}
+
+.formlgn h1{
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 6px #ff6947;
+
+}
+.formlgn input{
+    font-family: sans-serif;
+    width: 100%;
+    outline: 1px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.flex-containerlgn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.dropbtnlgn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdownlgn {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-contentlgn {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-contentlgn a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-contentlgn a:hover {background-color: #f1f1f1}
+
+.dropdownlgn:hover .dropdown-contentlgn {
+    display: block;
+}
+
+.dropdownlgn:hover .dropbtnlgn {
+    background-color: #3e8e41;
+}
+
+
+.Registrationlgn input{
+    padding-bottom: 10px;
+}
+
